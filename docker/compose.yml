@@ -13,6 +13,7 @@ services:
 
     volumes:
       - sql_data:/var/opt/mssql
+      - ../sample-data:/var/opt/mssql/backup
 
     restart: unless-stopped
 

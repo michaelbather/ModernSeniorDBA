@@ -14,3 +14,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Database Backups
+sample-data/*.bak
+sample-data/*.zip
